@@ -10,7 +10,7 @@ const Landingpage = () => {
 
             <div className="home-text">
                 <h1 className="lh1">Err 404 Hackathon</h1>
-                <p className="lp">Innovations Roar, Errors No more</p>
+                {/* <p className="lp">Innovations Roar, Errors No more</p> */}
             </div>
 
             <div className="home-btn">Devfolio</div>
