@@ -113,7 +113,43 @@
     margin-bottom: 10%;
 }
 
+/* Media Queries */
 
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .lh1 {
+        font-size: 60px !important;
+        letter-spacing: 5px !important;
+        padding: 40px 0px 0px 40px;
+    }
+    
+    .lp {
+        padding-bottom: 4%;
+        font-size: 1.5em;
+    }
+    
+    .home-btn {
+        width: 5em;
+        height: 1.5em;
+        font-size: 2.5em;
+        margin-bottom: 8%;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .lh1 {
+        font-size: 40px !important;
+        letter-spacing: 2px !important;
+        padding: 20px 0px 0px 10px;
+    }
+    
+    .lp {
+        padding-bottom: 3%;
+        font-size: 1.2em;
+    }
+    
+}
 /* ---------- Animations --------------- */
 @keyframes fade {
     0% {
