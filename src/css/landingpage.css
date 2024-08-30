@@ -111,6 +111,7 @@
     animation-name: fade;
     animation-duration: 8s;
     margin-bottom: 10%;
+    margin-top: 2%;
 }
 
 /* Media Queries */
@@ -147,6 +148,10 @@
     .lp {
         padding-bottom: 3%;
         font-size: 1.2em;
+    }
+
+    .home-btn {
+        margin-bottom: 20%;
     }
     
 }
