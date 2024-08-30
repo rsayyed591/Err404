@@ -9,8 +9,8 @@ const Landingpage = () => {
             <div className="bg-overlay"></div>
 
             <div className="home-text">
-                <h1>Err 404 Hackathon</h1>
-                <p>Innovations Roar, Errors No more</p>
+                <h1 className="lh1">Err 404 Hackathon</h1>
+                <p className="lp">Innovations Roar, Errors No more</p>
             </div>
 
             <div className="home-btn">Devfolio</div>
