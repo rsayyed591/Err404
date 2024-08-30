@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    /* background-color: rgba(0, 0, 0, 0.642); */
+}
+
+
+.landingpage {
+    
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    transition: 0.5s;
+}
+
+.video-bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.bg-overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+.home-text {
+    width: 70%;
+    background-color: transparent;
+    height: 60%;
+    /* padding: 0%; */
+    /* margin-top: 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 2;
+}
+
+h1 {
+    /* margin-top: 10%; */
+    font-size: 3em;
+    animation-name: fade;
+    animation-duration: 4s;
+}
+
+p {
+    font-size: 2em;
+    animation-name: fade;
+    animation-duration: 6s;
+}
+
+.home-btn {
+    width: 6em;
+    height: 2em;
+    border: 2px solid white;
+    border-radius: 0.25em;
+    background-color: rgba(255, 255, 255, 0.457);
+    z-index: 1;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    animation-name: fade;
+    animation-duration: 8s;
+}
+
+/* ---------- Animation --------------- */
+@keyframes fade {
+    0% {
+        opacity: 0;
+        margin-left: 3em;
+    }
+    100% {
+        opacity: 1;
+    }
+}
